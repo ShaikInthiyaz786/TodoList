@@ -16,7 +16,7 @@ This is a simple Todo List application built with React.js. The application allo
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/your-username/todo-list-app.git
 cd todo-list-app
 
@@ -25,7 +25,7 @@ cd todo-list-app
 npm install
 
 
-3. Start the application:
+`3. Start the application:`
 npm start
 
 The application will be available at http://localhost:3000.
