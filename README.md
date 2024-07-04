@@ -25,7 +25,7 @@ cd todo-list-app
 npm install
 
 
-`3. Start the application:`
+## 3. Start the application:
 npm start
 
 The application will be available at http://localhost:3000.
