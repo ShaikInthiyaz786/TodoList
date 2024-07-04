@@ -145,7 +145,10 @@ class Todo extends Component {
                     <div className="todo-btn">
                       <i
                         className="far fa-edit add-btn"
-                        onClick={() => this.editItem(curElem.id)}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          this.editItem(curElem.id);
+                        }}
                       ></i>
                       <i
                         className="far fa-trash-alt add-btn"
