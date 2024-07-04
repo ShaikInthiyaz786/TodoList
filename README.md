@@ -32,7 +32,7 @@ The application will be available at http://localhost:3000.
 
 
 
-Usage
+## Usage
 Type a task in the input field and press the "Add" button or the "Enter" key to add the task to the list.
 Click the edit button (pencil icon) next to a task to edit the task. Make changes in the input field and press the "Edit" button or the "Enter" key to save the changes.
 Click the delete button (trash icon) next to a task to delete the task.
@@ -41,7 +41,7 @@ Press the "Remove All" button to clear all tasks from the list.
 
 
 
-File Structure
+## File Structure
 src/
 App.js: The main component that renders the Todo component.
 components/todoreact
@@ -50,7 +50,7 @@ style.css: The CSS file for styling the application.
 
 
 
-Code Explanation
+## Code Explanation
 Todo.js
 This file contains the main Todo class component with the following state variables:
 
@@ -70,7 +70,7 @@ handleKeyPress: Adds a task when the "Enter" key is pressed.
 
 
 
-Dependencies
+## Dependencies
 react: JavaScript library for building user interfaces.
 react-dom: Package for working with the DOM in React.
 react-scripts: Scripts and configuration used by Create React App.
