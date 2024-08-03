@@ -2,6 +2,8 @@
 
 This is a simple Todo List application built with React.js. The application allows users to add, edit, delete, and mark tasks as completed. The tasks are stored in `localStorage` to persist data even after refreshing the page.
 
+![alt text](image.png)
+
 ## Features
 
 - Add new tasks
